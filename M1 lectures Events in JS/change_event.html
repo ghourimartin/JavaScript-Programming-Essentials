@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Event Handler</title>
+</head>
+<body>
+  <input type="text" id="myinput">
+  <p id="output"></p>
+  <script>
+    const minput = document.getElementById("myinput");
+    const output = document.getElementById("output");
+
+    input.onchange = function() 
+    {
+      output.textContent = 'value change to ${minput.value}';
+    };
+  </script>
+</body>
+</html>

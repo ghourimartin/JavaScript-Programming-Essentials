@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Over Event Handler</title>
+</head>
+<body>
+  <div id="mydiv">Mouse Over</div>
+  <p id="output"></p>
+  <script>
+    const mydiv = document.getElementById("mydiv");
+    const output = document.getElementById("output");
+
+    mydiv.onmouseover = function() 
+    {
+      output.textContent = "Mouse over hy bro";
+    }
+  </script>
+</body>
+</html>
